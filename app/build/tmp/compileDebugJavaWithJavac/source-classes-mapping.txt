@@ -1,0 +1,36 @@
+com/example/connect/BuildConfig.java
+ com.example.connect.BuildConfig
+com/example/connect/ForgotPasswordActivity.java
+ com.example.connect.ForgotPasswordActivity
+ com.example.connect.ForgotPasswordActivity$1
+ com.example.connect.ForgotPasswordActivity$1$1
+ com.example.connect.ForgotPasswordActivity$1$2
+com/example/connect/MainActivity.java
+ com.example.connect.MainActivity
+ com.example.connect.MainActivity$1
+com/example/connect/DashboardActivity.java
+ com.example.connect.DashboardActivity
+ com.example.connect.DashboardActivity$1
+ com.example.connect.DashboardActivity$2
+ com.example.connect.DashboardActivity$3
+com/example/connect/SignupActivity.java
+ com.example.connect.SignupActivity
+ com.example.connect.SignupActivity$1
+ com.example.connect.SignupActivity$2
+ com.example.connect.SignupActivity$2$1
+ com.example.connect.SignupActivity$2$1$1
+com/example/connect/LoginActivity.java
+ com.example.connect.LoginActivity
+ com.example.connect.LoginActivity$1
+ com.example.connect.LoginActivity$2
+ com.example.connect.LoginActivity$2$1
+ com.example.connect.LoginActivity$3
+com/example/connect/ProfileActivity.java
+ com.example.connect.ProfileActivity
+ com.example.connect.ProfileActivity$1
+ com.example.connect.ProfileActivity$2
+ com.example.connect.ProfileActivity$3
+com/example/connect/UpdateActivity.java
+ com.example.connect.UpdateActivity
+ com.example.connect.UpdateActivity$1
+ com.example.connect.UpdateActivity$1$1
