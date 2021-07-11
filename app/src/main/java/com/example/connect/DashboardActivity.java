@@ -24,7 +24,7 @@ public class DashboardActivity extends AppCompatActivity {
 
     EditText meetcode;
     FirebaseAuth auth;
-    Button joinmeet, sharecode,logout;
+    Button joinmeet, sharecode,logout, profile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,13 +34,22 @@ public class DashboardActivity extends AppCompatActivity {
         joinmeet = findViewById(R.id.joinmeet);
         sharecode = findViewById(R.id.sharecode);
         logout = findViewById(R.id.logout);
+        profile = findViewById(R.id.profile);
         auth = FirebaseAuth.getInstance();
+
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DashboardActivity.this, ProfileActivity.class));
+            }
+        });
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 auth.signOut();
                 startActivity(new Intent(DashboardActivity.this, LoginActivity.class));
+                finish();
 
             }
         });
